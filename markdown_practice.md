@@ -4,6 +4,8 @@
 
 **Bold**
 *Italic*
-- Item 1
+- [google](www.google.com)
 - Item 2
 - Item 3
+	+ sublist
+~~strikethrough text~~
