@@ -1,0 +1,83 @@
+---
+title: "In Class Assignment - RMarkdown"
+author: "Dr. Shoemaker"
+date: "DATA 2401"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+```
+
+
+Reminder: There is a "Markdown Help" page available in RStudio. 
+
+
+## In-class Activity, Markdown
+
+Below the "Your work here" section header, do the following 3 things. To turn this in, knit the RMarkdown file, and zip and submit the html.  
+
+1. Put your favorite quote in a block quote. Add a functioning link to a website that provides more information about that quote.
+
+2. Make a three column table of the current courses you are taking, with separate columns for course number (in __bold__), course title (in _italics_), and instructor name.
+
+3. Lastly, make a section with some information about your favorite author or musician.
+
++ A _heading_ with the name of the artist or author;    
++ An example of their writing or lyrics (formatted in a *plain code block*);   
++ A _list_ of things they have written or performed (remember to use the formatting markup for a list!).     
+
+
+Note that you can click "Knit" as you go along to see what the final results are going to look like. Zip the resulting html and turn it in to Blackboard.     
+ 
+# Your Work Here! 
+
+```
+Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our own actions.
+```
+- [Arrian, disciple of Epicetus](https://en.wikipedia.org/wiki/Enchiridion_of_Epictetus)
+
+|__Course Number__|_Course Title_|Instructor|
+|:------|:------|:------|
+|__COMM 1304__|_Introduction to Communication_|Bridget Mueller|
+|__CS 2311__|_Data Structures and Algorithms with Python_|John Henderson|
+|__DATA 2401__|_Data Science I_|Katherine Shoemaker|
+|__MATH 3302__|_Probability and Statistics_|Ha Nguyen|
+
+# Pink Floyd
+
+```
+Money
+It's a crime
+Share it fairly
+But don't take a slice of my pie
+Money
+So they say
+Is the root of all evil today
+But if you ask for a raise
+It's no surprise that they're giving none away
+```
+- Lyrics excerpt from the song _Money_ from the album __The Dark Side of the Moon__
+
+## Albums
+- The Piper at the Gates of Dawn
+- A Saucerful of Secrets
+- More
+- Ummagumma
+- Atom Heart Mother
+- Meddle
+- Obscured by Clouds
+- The Dark Side of the Moon
+- Wish You Were Here
+- Animals
+- The Wall
+- The Final Cut
+- A Momentary Lapse of Reason
+- The Division Bell
+- The Endless River
